@@ -1,0 +1,11 @@
+application: card-game-api
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: .*
+  script: public/public.php
+
+env_variables:
+ APP_ENV: 'development'
